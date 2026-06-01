@@ -19,7 +19,7 @@ jobs:
      run: test -f index.html
 
    - name: Verify CSS File Exists
-     run: test -f style.CSS
+     run: test -f style.css 
    
    - name: Verify JavaScript File Exists
      run: test -f script.js
